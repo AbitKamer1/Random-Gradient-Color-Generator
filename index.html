@@ -59,7 +59,7 @@
   textarea.setSelectionRange(0, textarea.value.length); // Tüm metni seç
   navigator.clipboard.writeText(textarea.value)
   .then(() => {
-  	alert("Kod kopyalandı: " + textarea.value);
+  	alert("Copy Code: " + textarea.value);
   })
   .catch((error) => {
   	console.error("Kopyalama işlemi başarısız:", error);
